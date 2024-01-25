@@ -1,0 +1,338 @@
+@font-face {
+
+    font-family: Learning Curve;
+    src: url("../fuentes/LearningCurve.ttf");
+}
+
+@font-face {
+    font-family: Sports World;
+    src: url("../fuentes/Sports\ World-Regular.ttf");
+    
+} 
+
+/* @font-face{
+    font-family: Sports World;
+    src: url("Sports\ World-Regular.ttf");
+} */
+
+
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+.cont-head {
+
+    background-color: #110900;
+    height: 9vh;
+}
+
+.cont-head-h1 {
+    color: #F700A9;
+    font-family: Learning Curve;
+    font-size: 3.3rem;
+    font-weight: bold;
+
+}
+
+.cont-head img{
+
+    height: 3rem;
+
+}
+
+.call-accion {
+
+    background-image: url("../asset/fondo-orange.gif");
+    background-position: center;
+    background-position-y: -1vh;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.call-accion-h1 {
+    font-family: Sports World;
+    line-height: 2.8rem;
+    color: #F700A9;
+}
+
+.call-accion-p {
+
+    font-family: 'Tektur', sans-serif;
+
+    line-height: 2.5rem;
+    color: #110900;
+
+}
+
+.btn-primary {
+
+    font-family: 'Tektur', sans-serif;
+    color: #F700A9;
+
+    background-color:  #000000ef;
+    border-color: black;
+}
+
+.btn-primary:hover {
+
+    background-color: black;
+}
+
+.btn-primary:active {
+
+    background-color: #F77F00;
+
+}
+
+.font-family {
+    font-family: Sports World;
+    color: #F700A9;
+}
+
+
+.form-label {
+
+    font-family: 'Tektur', sans-serif;
+    font-size: 1rem;
+    color: #F700A9;
+
+}
+
+.form-control {
+
+    border-color: var(--texto-color);
+    font-size: 0.9rem;
+
+}
+
+.beneficios{
+
+    background-color: #F77F00;
+}
+
+
+
+
+.card {
+
+
+    width: 100%;
+    font-family: 'Tektur', sans-serif;
+    color: #F700A9;
+    line-height: 1.9rem;
+    border-color: #F700A9;
+
+
+}
+
+.col-md-4 {
+
+    background-color: white;
+}
+
+.member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.member-info{
+
+    color: #F700A9;
+
+}
+
+.social {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+    background: rgba(247, 127, 0 , 85%);
+
+    
+
+}
+
+.a {
+    transition: color 0.3s;
+    color: var(--secondary-bg);
+    margin: 0 10px;
+    padding-top: 8px;
+    display: inline-block;
+}
+
+
+
+.bi {
+
+    color: #110900;
+
+    padding: 19px;
+    height: 20px;
+    font-size: 22px;
+}
+
+
+.member:hover .social {
+
+    opacity: initial;
+
+    box-shadow:0px 2px 15px #F77F00;
+}
+
+
+.member-info {
+
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Tektur', sans-serif;
+
+
+}
+
+
+
+#footer{
+
+    color: #F700A9;
+
+}
+
+.bg{
+
+    background-color: #000000ef;
+}
+
+.footer-contact{
+
+    font-family: Sports World ;
+   
+}
+
+.footer-contact h3{
+
+    font-size: 1.5rem;
+    
+}
+.footer-contact p{
+
+    font-family: 'Tektur', sans-serif;
+    font-size: 1rem;
+}
+.footer-links h4{ 
+
+    font-family: sports world;
+    font-size: 1rem;
+
+}
+
+
+
+.footer-links a{
+
+    font-family: 'Tektur', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 30px;
+    
+}
+
+.footer-newsletter h4{
+
+    font-family: sports world;
+    font-size: 1rem;
+
+
+
+}
+
+.footer-newsletter p{
+
+    font-family: 'Tektur', sans-serif;
+
+}
+
+.social-links i{
+
+    color: #F700A9;
+    font-size: 1.2rem;
+
+} 
+
+
+
+
+@media screen and (min-width: 768px) {
+
+
+    .call-accion {
+
+        background-size: contain;
+        background-position-y: 1vh;
+    }
+
+
+    .call-accion-h1 {
+
+        font-size: 2.9rem;
+        line-height: 3.3rem
+    }
+
+    .call-accion-p {
+
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        color: #110900;
+
+    }
+
+    .video {
+
+        height: 40vh;
+
+
+    }
+
+    .font-family {
+
+        font-size: 2.5rem;
+
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .cont-head-h1{
+
+        font-size: 4rem;
+    }
+
+    .card {
+
+        margin-left: 8vw;
+
+        padding: 5rem;
+
+    }
+
+    .col-md-4 img {
+
+        width: 100%;
+    }
+
+}
